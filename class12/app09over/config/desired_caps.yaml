@@ -1,0 +1,10 @@
+platformName: Android
+platformVersion: 10
+deviceName: 1999e3ac
+# 真机
+# uuid:uj2ism12414
+appPackage: com.autonavi.minimap
+appActivity: com.autonavi.map.activity.NewMapActivity
+noReset: False
+ip: 127.0.0.1
+port: 4723

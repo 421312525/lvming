@@ -1,0 +1,108 @@
+2021-06-20 14:59:51,730 Demo01.py DEBUG <module> debug模式
+2021-06-20 14:59:51,731 Demo01.py INFO <module> info模式
+2021-06-20 14:59:51,731 Demo01.py WARNING <module> warning模式
+2021-06-20 14:59:51,731 Demo01.py ERROR <module> error模式
+2021-06-20 14:59:51,731 Demo01.py CRITICAL <module> critical模式
+2021-06-20 15:07:24,655 Demo01.py DEBUG <module> debug模式
+2021-06-20 15:07:24,656 Demo01.py INFO <module> info模式
+2021-06-20 15:07:24,657 Demo01.py WARNING <module> warning模式
+2021-06-20 15:07:24,657 Demo01.py ERROR <module> error模式
+2021-06-20 15:07:24,657 Demo01.py CRITICAL <module> critical模式
+2021-06-20 15:58:30,901 remote_connection.py DEBUG _request POST http://127.0.0.1:50619/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-06-20 15:58:30,904 connectionpool.py DEBUG _new_conn Starting new HTTP connection (1): 127.0.0.1:50619
+2021-06-20 15:58:34,594 connectionpool.py DEBUG _make_request http://127.0.0.1:50619 "POST /session HTTP/1.1" 200 689
+2021-06-20 15:58:34,595 remote_connection.py DEBUG _request Finished Request
+2021-06-20 15:58:34,595 Demo02.py INFO __init__ 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="ac0eb5ea6f351783863b00d90433ceb4")>
+2021-06-20 15:58:34,596 Demo02.py INFO open 正在访问网址http://www.baidu.com
+2021-06-20 15:58:34,596 remote_connection.py DEBUG _request POST http://127.0.0.1:50619/session/ac0eb5ea6f351783863b00d90433ceb4/url {"url": "http://www.baidu.com"}
+2021-06-20 15:58:48,725 connectionpool.py DEBUG _make_request http://127.0.0.1:50619 "POST /session/ac0eb5ea6f351783863b00d90433ceb4/url HTTP/1.1" 200 14
+2021-06-20 15:58:48,728 remote_connection.py DEBUG _request Finished Request
+2021-06-20 15:58:48,728 Demo02.py INFO on_input 正在定位id元素，元素值为：kw,输入的内容为秋水
+2021-06-20 15:58:48,729 Demo02.py INFO locator 正在定位id元素，元素值为：kw
+2021-06-20 15:58:48,729 remote_connection.py DEBUG _request POST http://127.0.0.1:50619/session/ac0eb5ea6f351783863b00d90433ceb4/element {"using": "css selector", "value": "[id=\"kw\"]"}
+2021-06-20 15:58:48,761 connectionpool.py DEBUG _make_request http://127.0.0.1:50619 "POST /session/ac0eb5ea6f351783863b00d90433ceb4/element HTTP/1.1" 200 88
+2021-06-20 15:58:48,762 remote_connection.py DEBUG _request Finished Request
+2021-06-20 15:58:48,762 remote_connection.py DEBUG _request POST http://127.0.0.1:50619/session/ac0eb5ea6f351783863b00d90433ceb4/element/2dd88541-7673-40ff-a322-b9fcea855dff/value {"text": "\u79cb\u6c34", "value": ["\u79cb", "\u6c34"], "id": "2dd88541-7673-40ff-a322-b9fcea855dff"}
+2021-06-20 15:58:49,021 connectionpool.py DEBUG _make_request http://127.0.0.1:50619 "POST /session/ac0eb5ea6f351783863b00d90433ceb4/element/2dd88541-7673-40ff-a322-b9fcea855dff/value HTTP/1.1" 200 14
+2021-06-20 15:58:49,021 remote_connection.py DEBUG _request Finished Request
+2021-06-20 15:58:49,022 Demo02.py INFO on_click 正在定位id元素，元素值为：su,进行点击
+2021-06-20 15:58:49,022 Demo02.py INFO locator 正在定位id元素，元素值为：su
+2021-06-20 15:58:49,022 remote_connection.py DEBUG _request POST http://127.0.0.1:50619/session/ac0eb5ea6f351783863b00d90433ceb4/element {"using": "css selector", "value": "[id=\"su\"]"}
+2021-06-20 15:58:49,081 connectionpool.py DEBUG _make_request http://127.0.0.1:50619 "POST /session/ac0eb5ea6f351783863b00d90433ceb4/element HTTP/1.1" 200 88
+2021-06-20 15:58:49,082 remote_connection.py DEBUG _request Finished Request
+2021-06-20 15:58:49,082 remote_connection.py DEBUG _request POST http://127.0.0.1:50619/session/ac0eb5ea6f351783863b00d90433ceb4/element/e94598ab-5b1a-4b29-80e2-24e69c4f4e2d/click {"id": "e94598ab-5b1a-4b29-80e2-24e69c4f4e2d"}
+2021-06-20 15:58:49,279 connectionpool.py DEBUG _make_request http://127.0.0.1:50619 "POST /session/ac0eb5ea6f351783863b00d90433ceb4/element/e94598ab-5b1a-4b29-80e2-24e69c4f4e2d/click HTTP/1.1" 200 14
+2021-06-20 15:58:49,280 remote_connection.py DEBUG _request Finished Request
+2021-06-20 15:58:49,280 Demo02.py INFO wait 正在等待
+2021-06-20 15:58:52,285 Demo02.py INFO on_click 正在定位xpath元素，元素值为：//*[@id="1"]/h3/a/em,进行点击
+2021-06-20 15:58:52,286 Demo02.py INFO locator 正在定位xpath元素，元素值为：//*[@id="1"]/h3/a/em
+2021-06-20 15:58:52,286 remote_connection.py DEBUG _request POST http://127.0.0.1:50619/session/ac0eb5ea6f351783863b00d90433ceb4/element {"using": "xpath", "value": "//*[@id=\"1\"]/h3/a/em"}
+2021-06-20 15:58:52,300 connectionpool.py DEBUG _make_request http://127.0.0.1:50619 "POST /session/ac0eb5ea6f351783863b00d90433ceb4/element HTTP/1.1" 200 88
+2021-06-20 15:58:52,301 remote_connection.py DEBUG _request Finished Request
+2021-06-20 15:58:52,301 remote_connection.py DEBUG _request POST http://127.0.0.1:50619/session/ac0eb5ea6f351783863b00d90433ceb4/element/f6ab2e41-c6f1-491d-803a-9cb3bc5a7c13/click {"id": "f6ab2e41-c6f1-491d-803a-9cb3bc5a7c13"}
+2021-06-20 15:58:52,476 connectionpool.py DEBUG _make_request http://127.0.0.1:50619 "POST /session/ac0eb5ea6f351783863b00d90433ceb4/element/f6ab2e41-c6f1-491d-803a-9cb3bc5a7c13/click HTTP/1.1" 200 14
+2021-06-20 15:58:52,476 remote_connection.py DEBUG _request Finished Request
+2021-06-20 15:58:52,477 Demo02.py INFO wait 正在等待
+2021-06-20 15:58:55,480 Demo02.py INFO close 关闭浏览器
+2021-06-20 15:58:55,480 remote_connection.py DEBUG _request DELETE http://127.0.0.1:50619/session/ac0eb5ea6f351783863b00d90433ceb4 {}
+2021-06-20 15:58:55,651 connectionpool.py DEBUG _make_request http://127.0.0.1:50619 "DELETE /session/ac0eb5ea6f351783863b00d90433ceb4 HTTP/1.1" 200 14
+2021-06-20 15:58:55,652 remote_connection.py DEBUG _request Finished Request
+info模式
+warning模式
+error模式
+critical模式
+info模式
+warning模式
+error模式
+critical模式
+%(asctime)s %(filename)s %(levelname)s %(funcName)s %(message)s
+%(asctime)s %(filename)s %(levelname)s %(funcName)s %(message)s
+%(asctime)s %(filename)s %(levelname)s %(funcName)s %(message)s
+%(asctime)s %(filename)s %(levelname)s %(funcName)s %(message)s
+%(asctime)s %(filename)s %(levelname)s %(funcName)s %(message)s
+%(asctime)s %(filename)s %(levelname)s %(funcName)s %(message)s
+%(asctime)s %(filename)s %(levelname)s %(funcName)s %(message)s
+%(asctime)s %(filename)s %(levelname)s %(funcName)s %(message)s
+2021-06-20 16:48:14,718 baselog.py INFO <module> info模式
+2021-06-20 16:48:14,718 baselog.py WARNING <module> warning模式
+2021-06-20 16:48:14,718 baselog.py ERROR <module> error模式
+2021-06-20 16:48:14,718 baselog.py CRITICAL <module> critical模式
+2021-06-20 19:25:05,920 remote_connection.py DEBUG _request POST http://127.0.0.1:52079/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-06-20 19:25:05,921 connectionpool.py DEBUG _new_conn Starting new HTTP connection (1): 127.0.0.1:52079
+2021-06-20 19:25:08,026 connectionpool.py DEBUG _make_request http://127.0.0.1:52079 "POST /session HTTP/1.1" 200 689
+2021-06-20 19:25:08,027 remote_connection.py DEBUG _request Finished Request
+2021-06-20 19:25:08,028 Demo02.py INFO __init__ 初始化driver<selenium.webdriver.chrome.webdriver.WebDriver (session="117d0d475e5cc05eed31d23143dc157b")>
+2021-06-20 19:25:08,028 Demo02.py INFO open 正在访问网址http://www.baidu.com
+2021-06-20 19:25:08,028 remote_connection.py DEBUG _request POST http://127.0.0.1:52079/session/117d0d475e5cc05eed31d23143dc157b/url {"url": "http://www.baidu.com"}
+2021-06-20 19:25:09,678 connectionpool.py DEBUG _make_request http://127.0.0.1:52079 "POST /session/117d0d475e5cc05eed31d23143dc157b/url HTTP/1.1" 200 14
+2021-06-20 19:25:09,678 remote_connection.py DEBUG _request Finished Request
+2021-06-20 19:25:09,678 Demo02.py INFO on_input 正在定位id元素，元素值为：kw,输入的内容为秋水
+2021-06-20 19:25:09,678 Demo02.py INFO locator 正在定位id元素，元素值为：kw
+2021-06-20 19:25:09,679 remote_connection.py DEBUG _request POST http://127.0.0.1:52079/session/117d0d475e5cc05eed31d23143dc157b/element {"using": "css selector", "value": "[id=\"kw\"]"}
+2021-06-20 19:25:09,695 connectionpool.py DEBUG _make_request http://127.0.0.1:52079 "POST /session/117d0d475e5cc05eed31d23143dc157b/element HTTP/1.1" 200 88
+2021-06-20 19:25:09,695 remote_connection.py DEBUG _request Finished Request
+2021-06-20 19:25:09,695 remote_connection.py DEBUG _request POST http://127.0.0.1:52079/session/117d0d475e5cc05eed31d23143dc157b/element/3cfdabe5-a13e-43f9-87c8-026f90806a20/value {"text": "\u79cb\u6c34", "value": ["\u79cb", "\u6c34"], "id": "3cfdabe5-a13e-43f9-87c8-026f90806a20"}
+2021-06-20 19:25:09,891 connectionpool.py DEBUG _make_request http://127.0.0.1:52079 "POST /session/117d0d475e5cc05eed31d23143dc157b/element/3cfdabe5-a13e-43f9-87c8-026f90806a20/value HTTP/1.1" 200 14
+2021-06-20 19:25:09,892 remote_connection.py DEBUG _request Finished Request
+2021-06-20 19:25:09,892 Demo02.py INFO on_click 正在定位id元素，元素值为：su,进行点击
+2021-06-20 19:25:09,892 Demo02.py INFO locator 正在定位id元素，元素值为：su
+2021-06-20 19:25:09,892 remote_connection.py DEBUG _request POST http://127.0.0.1:52079/session/117d0d475e5cc05eed31d23143dc157b/element {"using": "css selector", "value": "[id=\"su\"]"}
+2021-06-20 19:25:09,914 connectionpool.py DEBUG _make_request http://127.0.0.1:52079 "POST /session/117d0d475e5cc05eed31d23143dc157b/element HTTP/1.1" 200 88
+2021-06-20 19:25:09,914 remote_connection.py DEBUG _request Finished Request
+2021-06-20 19:25:09,914 remote_connection.py DEBUG _request POST http://127.0.0.1:52079/session/117d0d475e5cc05eed31d23143dc157b/element/49612dc8-ff16-47bc-9bfb-308600b1b749/click {"id": "49612dc8-ff16-47bc-9bfb-308600b1b749"}
+2021-06-20 19:25:10,031 connectionpool.py DEBUG _make_request http://127.0.0.1:52079 "POST /session/117d0d475e5cc05eed31d23143dc157b/element/49612dc8-ff16-47bc-9bfb-308600b1b749/click HTTP/1.1" 200 14
+2021-06-20 19:25:10,031 remote_connection.py DEBUG _request Finished Request
+2021-06-20 19:25:10,032 Demo02.py INFO wait 正在等待
+2021-06-20 19:25:13,032 Demo02.py INFO on_click 正在定位xpath元素，元素值为：//*[@id="1"]/h3/a/em,进行点击
+2021-06-20 19:25:13,032 Demo02.py INFO locator 正在定位xpath元素，元素值为：//*[@id="1"]/h3/a/em
+2021-06-20 19:25:13,032 remote_connection.py DEBUG _request POST http://127.0.0.1:52079/session/117d0d475e5cc05eed31d23143dc157b/element {"using": "xpath", "value": "//*[@id=\"1\"]/h3/a/em"}
+2021-06-20 19:25:13,049 connectionpool.py DEBUG _make_request http://127.0.0.1:52079 "POST /session/117d0d475e5cc05eed31d23143dc157b/element HTTP/1.1" 200 88
+2021-06-20 19:25:13,049 remote_connection.py DEBUG _request Finished Request
+2021-06-20 19:25:13,049 remote_connection.py DEBUG _request POST http://127.0.0.1:52079/session/117d0d475e5cc05eed31d23143dc157b/element/782fbafc-943a-4cfc-a459-050fdc22ce15/click {"id": "782fbafc-943a-4cfc-a459-050fdc22ce15"}
+2021-06-20 19:25:13,188 connectionpool.py DEBUG _make_request http://127.0.0.1:52079 "POST /session/117d0d475e5cc05eed31d23143dc157b/element/782fbafc-943a-4cfc-a459-050fdc22ce15/click HTTP/1.1" 200 14
+2021-06-20 19:25:13,189 remote_connection.py DEBUG _request Finished Request
+2021-06-20 19:25:13,189 Demo02.py INFO wait 正在等待
+2021-06-20 19:25:16,193 Demo02.py INFO close 关闭浏览器
+2021-06-20 19:25:16,194 remote_connection.py DEBUG _request DELETE http://127.0.0.1:52079/session/117d0d475e5cc05eed31d23143dc157b {}
+2021-06-20 19:25:16,319 connectionpool.py DEBUG _make_request http://127.0.0.1:52079 "DELETE /session/117d0d475e5cc05eed31d23143dc157b HTTP/1.1" 200 14
+2021-06-20 19:25:16,321 remote_connection.py DEBUG _request Finished Request

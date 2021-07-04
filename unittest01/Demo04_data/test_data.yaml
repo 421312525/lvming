@@ -1,0 +1,36 @@
+-
+  url: http://www.jd.com
+  input:
+    name: id
+    value: key
+    txt: 手机
+  click:
+    name: xpath
+    value: //button[@aria-label="搜索"]
+-
+  url: http://www.jd.com
+  input:
+    name: id
+    value: key
+    txt: 笔记本
+  click:
+    name: xpath
+    value: //button[@aria-label="搜索"]
+-
+  url: http://www.jd.com
+  input:
+    name: id
+    value: key
+    txt: 平板电脑
+  click:
+    name: xpath
+    value: //button[@aria-label="搜索"]
+-
+  url: http://www.jd.com
+  input:
+    name: id
+    value: key
+    txt: 按摩椅
+  click:
+    name: xpath
+    value: //button[@aria-label="搜索"]

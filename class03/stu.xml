@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+xml里面的标签都是成对的,区分大小写
+标签中继续套标签 ID="S001" id叫属性 S001值 八大元素 定位 (前端页面 写个简单的页面 css)
+登录的页面，js点击它弹出一个框
+-->
+<Class>
+    <student ID="S001">
+        <name>qiushui</name>>
+        <age>18</age>>
+        <phone>110</phone>>
+    </student>>
+
+    <student ID="S002">
+        <name>qiushui2</name>>
+        <age>18</age>>
+        <phone>111</phone>>
+    </student>>
+
+    <student ID="S002">
+        <name>qiushui3</name>>
+        <age>18</age>>
+        <phone>112</phone>>
+    </student>>
+    <acc>
+        <input username="student" password="123456"/>
+        <input username="teacher" password="123456"/>
+    </acc>>
+</Class>

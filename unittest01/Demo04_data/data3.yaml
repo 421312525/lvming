@@ -1,0 +1,15 @@
+# 字典的嵌套组合
+key1:
+  key1.1: value1.1
+key2:
+  key2.1:
+    key2.1.1: value2.1.1
+key3:
+  - a
+  - b
+  - c
+key4:
+  -
+    key4.1.1:
+      -
+        key4.1.1.1: value4.1.1.1
